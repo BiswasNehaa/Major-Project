@@ -1,0 +1,13 @@
+# Ignore React dependencies
+node_modules/
+dist/
+.env
+
+# Ignore Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
