@@ -1,13 +1,35 @@
-# Ignore React dependencies
+# ========================
+# React / Frontend
+# ========================
 node_modules/
 dist/
-.env
 
-# Ignore Python virtual environment
+# ========================
+# Python
+# ========================
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Ignore OS files
+# ========================
+# Environment variables
+# ========================
+.env
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# VS Code
+# ========================
+.vscode/
+
+# ========================
+# OS files
+# ========================
 .DS_Store
 Thumbs.db
